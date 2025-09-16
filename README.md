@@ -1,0 +1,2 @@
+# smartemailing
+Smartemailing Php API
