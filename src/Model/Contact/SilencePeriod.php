@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact;
+namespace Spawicki\SmartEmailing\Model\Contact;
 
-use Spawicki\SmartEmailing\Api\Model\General\Period;
+use Spawicki\SmartEmailing\Model\General\Period;
 
 class SilencePeriod extends Period
 {

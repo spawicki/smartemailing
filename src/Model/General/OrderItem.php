@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\General;
+namespace Spawicki\SmartEmailing\Model\General;
 
-use Spawicki\SmartEmailing\Api\Bag\AbstractBag;
-use Spawicki\SmartEmailing\Api\Bag\AttributeBag;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
-use Spawicki\SmartEmailing\Api\Model\ModelInterface;
+use Spawicki\SmartEmailing\Bag\AbstractBag;
+use Spawicki\SmartEmailing\Bag\AttributeBag;
+use Spawicki\SmartEmailing\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\ModelInterface;
 
 class OrderItem extends AbstractModel implements ModelInterface
 {

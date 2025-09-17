@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api;
+namespace Spawicki\SmartEmailing;
 
-use Spawicki\SmartEmailing\Api\Endpoint\Automation;
-use Spawicki\SmartEmailing\Api\Endpoint\ContactLists;
-use Spawicki\SmartEmailing\Api\Endpoint\Contacts;
-use Spawicki\SmartEmailing\Api\Endpoint\CustomCampaigns;
-use Spawicki\SmartEmailing\Api\Endpoint\CustomFieldOptions;
-use Spawicki\SmartEmailing\Api\Endpoint\CustomFields;
-use Spawicki\SmartEmailing\Api\Endpoint\Emails;
-use Spawicki\SmartEmailing\Api\Endpoint\Eshops;
-use Spawicki\SmartEmailing\Api\Endpoint\Import;
-use Spawicki\SmartEmailing\Api\Endpoint\Newsletter;
-use Spawicki\SmartEmailing\Api\Endpoint\ProcessingPurposes;
-use Spawicki\SmartEmailing\Api\Endpoint\Scoring;
-use Spawicki\SmartEmailing\Api\Endpoint\Stats;
-use Spawicki\SmartEmailing\Api\Endpoint\Tests;
-use Spawicki\SmartEmailing\Api\Endpoint\TransactionalEmails;
-use Spawicki\SmartEmailing\Api\Endpoint\WebForms;
-use Spawicki\SmartEmailing\Api\Endpoint\Webhooks;
+use Spawicki\SmartEmailing\Endpoint\Automation;
+use Spawicki\SmartEmailing\Endpoint\ContactLists;
+use Spawicki\SmartEmailing\Endpoint\Contacts;
+use Spawicki\SmartEmailing\Endpoint\CustomCampaigns;
+use Spawicki\SmartEmailing\Endpoint\CustomFieldOptions;
+use Spawicki\SmartEmailing\Endpoint\CustomFields;
+use Spawicki\SmartEmailing\Endpoint\Emails;
+use Spawicki\SmartEmailing\Endpoint\Eshops;
+use Spawicki\SmartEmailing\Endpoint\Import;
+use Spawicki\SmartEmailing\Endpoint\Newsletter;
+use Spawicki\SmartEmailing\Endpoint\ProcessingPurposes;
+use Spawicki\SmartEmailing\Endpoint\Scoring;
+use Spawicki\SmartEmailing\Endpoint\Stats;
+use Spawicki\SmartEmailing\Endpoint\Tests;
+use Spawicki\SmartEmailing\Endpoint\TransactionalEmails;
+use Spawicki\SmartEmailing\Endpoint\WebForms;
+use Spawicki\SmartEmailing\Endpoint\Webhooks;
 
 class SmartEmailingApi extends AbstractApi
 {

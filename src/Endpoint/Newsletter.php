@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
-use Spawicki\SmartEmailing\Api\Model\General\Newsletter as NewsletterModel;
-use Spawicki\SmartEmailing\Api\Response\ImportResponse;
-use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Model\General\Newsletter as NewsletterModel;
+use Spawicki\SmartEmailing\Response\ImportResponse;
+use Spawicki\SmartEmailing\Response\SmartEmailingResponseInterface;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-Newsletter

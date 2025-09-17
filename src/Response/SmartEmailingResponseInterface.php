@@ -1,6 +1,6 @@
 <?php
 
-namespace Spawicki\SmartEmailing\Api\Response;
+namespace Spawicki\SmartEmailing\Response;
 
 interface SmartEmailingResponseInterface
 {

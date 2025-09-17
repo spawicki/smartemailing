@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Response;
+namespace Spawicki\SmartEmailing\Response;
 
 class UnauthorizedResponse extends BaseResponse
 {

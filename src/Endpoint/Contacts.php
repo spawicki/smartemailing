@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
-use Spawicki\SmartEmailing\Api\Model\Contact\ContactChangeEmailAddress;
-use Spawicki\SmartEmailing\Api\Response\BaseResponse;
-use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
-use Spawicki\SmartEmailing\Api\Search\Contact\SearchContact;
-use Spawicki\SmartEmailing\Api\Search\Contact\SearchContactSingle;
+use Spawicki\SmartEmailing\Model\Contact\ContactChangeEmailAddress;
+use Spawicki\SmartEmailing\Response\BaseResponse;
+use Spawicki\SmartEmailing\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Search\Contact\SearchContact;
+use Spawicki\SmartEmailing\Search\Contact\SearchContactSingle;
 
 class Contacts extends AbstractEndpoint
 {

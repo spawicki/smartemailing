@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact;
+namespace Spawicki\SmartEmailing\Model\Contact;
 
-use Spawicki\SmartEmailing\Api\Bag\AbstractBag;
-use Spawicki\SmartEmailing\Api\Bag\ContactListBag;
-use Spawicki\SmartEmailing\Api\Bag\CustomFieldBag;
-use Spawicki\SmartEmailing\Api\Bag\PurposeBag;
-use Spawicki\SmartEmailing\Api\Bag\Util\Helper;
-use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
-use Spawicki\SmartEmailing\Api\Model\ModelInterface;
+use Spawicki\SmartEmailing\Bag\AbstractBag;
+use Spawicki\SmartEmailing\Bag\ContactListBag;
+use Spawicki\SmartEmailing\Bag\CustomFieldBag;
+use Spawicki\SmartEmailing\Bag\PurposeBag;
+use Spawicki\SmartEmailing\Bag\Util\Helper;
+use Spawicki\SmartEmailing\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\ModelInterface;
 
 class ContactDetail extends AbstractModel implements ModelInterface
 {

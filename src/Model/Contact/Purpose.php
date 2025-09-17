@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact;
+namespace Spawicki\SmartEmailing\Model\Contact;
 
-use Spawicki\SmartEmailing\Api\Bag\Util\Helper;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
-use Spawicki\SmartEmailing\Api\Model\ModelInterface;
+use Spawicki\SmartEmailing\Bag\Util\Helper;
+use Spawicki\SmartEmailing\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\ModelInterface;
 
 class Purpose extends AbstractModel implements ModelInterface
 {

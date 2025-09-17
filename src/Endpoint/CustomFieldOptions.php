@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
-use Spawicki\SmartEmailing\Api\Exception\RequiredFieldException;
-use Spawicki\SmartEmailing\Api\Model\General\CustomFieldOption;
-use Spawicki\SmartEmailing\Api\Response\BaseResponse;
-use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
-use Spawicki\SmartEmailing\Api\Search\General\SearchCustomFieldOptions;
-use Spawicki\SmartEmailing\Api\Search\General\SearchSingleCustomFieldOptions;
+use Spawicki\SmartEmailing\Exception\RequiredFieldException;
+use Spawicki\SmartEmailing\Model\General\CustomFieldOption;
+use Spawicki\SmartEmailing\Response\BaseResponse;
+use Spawicki\SmartEmailing\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Search\General\SearchCustomFieldOptions;
+use Spawicki\SmartEmailing\Search\General\SearchSingleCustomFieldOptions;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-Customfield_Options

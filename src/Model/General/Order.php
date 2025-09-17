@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\General;
+namespace Spawicki\SmartEmailing\Model\General;
 
-use Spawicki\SmartEmailing\Api\Bag\FeedItemBag;
-use Spawicki\SmartEmailing\Api\Model\General\Helpers;
-use Spawicki\SmartEmailing\Api\Model\General\OrderItemBag;
-use Spawicki\SmartEmailing\Api\Bag\AbstractBag;
-use Spawicki\SmartEmailing\Api\Bag\AttributeBag;
-use Spawicki\SmartEmailing\Api\Bag\Util\Helper;
-use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
-use Spawicki\SmartEmailing\Api\Model\ModelInterface;
+use Spawicki\SmartEmailing\Bag\FeedItemBag;
+use Spawicki\SmartEmailing\Model\General\Helpers;
+use Spawicki\SmartEmailing\Model\General\OrderItemBag;
+use Spawicki\SmartEmailing\Bag\AbstractBag;
+use Spawicki\SmartEmailing\Bag\AttributeBag;
+use Spawicki\SmartEmailing\Bag\Util\Helper;
+use Spawicki\SmartEmailing\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\ModelInterface;
 
 class Order extends AbstractModel implements ModelInterface
 {

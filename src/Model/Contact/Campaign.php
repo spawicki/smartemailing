@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact;
+namespace Spawicki\SmartEmailing\Model\Contact;
 
-use Spawicki\SmartEmailing\Api\Bag\ReplaceBag;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Bag\ReplaceBag;
+use Spawicki\SmartEmailing\Model\AbstractModel;
 
 class Campaign extends AbstractModel
 {

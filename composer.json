@@ -11,12 +11,12 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=8.3",
+    "php": ">=8.4",
     "symfony/http-client": "^6.3|^7.0"
   },
   "autoload": {
     "psr-4": {
-      "Spawicki/SmartEmailing/Api\\": "src/"
+      "Spawicki/SmartEmailing\\": "src/"
     }
   }
 }

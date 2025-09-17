@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Bag\Util;
+namespace Spawicki\SmartEmailing\Bag\Util;
 
 use DateTime;
 use InvalidArgumentException;

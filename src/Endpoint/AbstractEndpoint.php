@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
-use Spawicki\SmartEmailing\Api\Bag\Util\Helper;
-use Spawicki\SmartEmailing\Api\Enum\DataFormat;
-use Spawicki\SmartEmailing\Api\Enum\HttpMethod;
-use Spawicki\SmartEmailing\Api\Enum\ResponseCode;
-use Spawicki\SmartEmailing\Api\Enum\ResponseStatus;
-use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
-use Spawicki\SmartEmailing\Api\Response\UnauthorizedResponse;
-use Spawicki\SmartEmailing\Api\SmartEmailingApi;
+use Spawicki\SmartEmailing\Bag\Util\Helper;
+use Spawicki\SmartEmailing\Enum\DataFormat;
+use Spawicki\SmartEmailing\Enum\HttpMethod;
+use Spawicki\SmartEmailing\Enum\ResponseCode;
+use Spawicki\SmartEmailing\Enum\ResponseStatus;
+use Spawicki\SmartEmailing\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Response\UnauthorizedResponse;
+use Spawicki\SmartEmailing\SmartEmailingApi;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;

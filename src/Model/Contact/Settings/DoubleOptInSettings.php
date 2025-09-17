@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact\Settings;
+namespace Spawicki\SmartEmailing\Model\Contact\Settings;
 
-use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
-use Spawicki\SmartEmailing\Api\Model\Contact\Campaign;
-use Spawicki\SmartEmailing\Api\Model\Contact\SilencePeriod;
+use Spawicki\SmartEmailing\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\Contact\Campaign;
+use Spawicki\SmartEmailing\Model\Contact\SilencePeriod;
 
 class DoubleOptInSettings extends AbstractModel
 {

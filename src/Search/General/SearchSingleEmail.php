@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Search\General;
+namespace Spawicki\SmartEmailing\Search\General;
 
-use Spawicki\SmartEmailing\Api\Search\AbstractSearch;
+use Spawicki\SmartEmailing\Search\AbstractSearch;
 
 class SearchSingleEmail extends AbstractSearch
 {

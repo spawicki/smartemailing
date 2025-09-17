@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Bag;
+namespace Spawicki\SmartEmailing\Bag;
 
 class CustomFieldBag
 {

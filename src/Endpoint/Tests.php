@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
-use Spawicki\SmartEmailing\Api\Response\BaseResponse;
-use Spawicki\SmartEmailing\Api\Response\LoginResponse;
-use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Response\BaseResponse;
+use Spawicki\SmartEmailing\Response\LoginResponse;
+use Spawicki\SmartEmailing\Response\SmartEmailingResponseInterface;
 
 class Tests extends AbstractEndpoint
 {

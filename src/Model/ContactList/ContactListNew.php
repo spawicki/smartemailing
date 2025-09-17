@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\ContactList;
+namespace Spawicki\SmartEmailing\Model\ContactList;
 
-use Spawicki\SmartEmailing\Api\Exception\RequiredFieldException;
+use Spawicki\SmartEmailing\Exception\RequiredFieldException;
 
 class ContactListNew extends ContactList
 {

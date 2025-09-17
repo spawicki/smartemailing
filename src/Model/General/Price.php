@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\General;
+namespace Spawicki\SmartEmailing\Model\General;
 
-use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Model\AbstractModel;
 
 class Price extends AbstractModel
 {

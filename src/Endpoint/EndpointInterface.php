@@ -1,6 +1,6 @@
 <?php
 
-namespace Spawicki\SmartEmailing\Api\Endpoint;
+namespace Spawicki\SmartEmailing\Endpoint;
 
 interface EndpointInterface
 {

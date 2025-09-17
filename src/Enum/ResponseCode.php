@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Enum;
+namespace Spawicki\SmartEmailing\Enum;
 
 enum ResponseCode: int
 {

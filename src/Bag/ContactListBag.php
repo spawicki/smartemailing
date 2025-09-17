@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Bag;
+namespace Spawicki\SmartEmailing\Bag;
 
-use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
-use Spawicki\SmartEmailing\Api\Model\Contact\ContactList;
+use Spawicki\SmartEmailing\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Model\Contact\ContactList;
 
 class ContactListBag extends AbstractBag
 {

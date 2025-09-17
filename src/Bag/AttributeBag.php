@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Bag;
+namespace Spawicki\SmartEmailing\Bag;
 
-use Spawicki\SmartEmailing\Api\Model\General\Attribute;
+use Spawicki\SmartEmailing\Model\General\Attribute;
 
 class AttributeBag extends AbstractBag
 {

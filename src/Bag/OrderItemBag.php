@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Bag;
+namespace Spawicki\SmartEmailing\Bag;
 
-use Spawicki\SmartEmailing\Api\Model\General\OrderItem;
-use Spawicki\SmartEmailing\Api\Model\General\Price;
+use Spawicki\SmartEmailing\Model\General\OrderItem;
+use Spawicki\SmartEmailing\Model\General\Price;
 
 class OrderItemBag extends AbstractBag
 {

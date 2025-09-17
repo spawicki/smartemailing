@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Model\Contact\Settings;
+namespace Spawicki\SmartEmailing\Model\Contact\Settings;
 
 class Settings
 {

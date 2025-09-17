@@ -1,8 +1,8 @@
 <?php
 
-namespace Spawicki\SmartEmailing\Api\Search;
+namespace Spawicki\SmartEmailing\Search;
 
-use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Exception\AllowedTypeException;
 use JetBrains\PhpStorm\ArrayShape;
 use JsonSerializable;
 use Stringable;

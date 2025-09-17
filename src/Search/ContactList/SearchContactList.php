@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Search\ContactList;
+namespace Spawicki\SmartEmailing\Search\ContactList;
 
-use Spawicki\SmartEmailing\Api\Search\AbstractSearch;
+use Spawicki\SmartEmailing\Search\AbstractSearch;
 
 class SearchContactList extends AbstractSearch
 {

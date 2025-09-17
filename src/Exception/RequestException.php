@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawicki\SmartEmailing\Api\Exception;
+namespace Spawicki\SmartEmailing\Exception;
 
 use Psr\Http\Message\RequestInterface;
 
