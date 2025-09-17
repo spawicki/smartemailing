@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\ContactList;
+namespace Spawicki\SmartEmailing\Api\Model\ContactList;
 
-use App\Services\SmartEmailing\Api\src\Bag\Util\Helper;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Bag\Util\Helper;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
 use JetBrains\PhpStorm\ArrayShape;
 
 class ContactList extends AbstractModel

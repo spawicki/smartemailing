@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\General;
+namespace Spawicki\SmartEmailing\Api\Model\General;
 
-use App\Services\SmartEmailing\Api\src\Bag\TaskBag;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\ModelInterface;
+use Spawicki\SmartEmailing\Api\Bag\TaskBag;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\ModelInterface;
 
 class Sms extends AbstractModel implements ModelInterface
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Bag\TaskBag;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\General\CustomEmail;
-use App\Services\SmartEmailing\Api\src\Model\General\Sms;
-use App\Services\SmartEmailing\Api\src\Model\General\TransactionalEmail;
-use App\Services\SmartEmailing\Api\src\Response\BaseResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Bag\TaskBag;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\General\CustomEmail;
+use Spawicki\SmartEmailing\Api\Model\General\Sms;
+use Spawicki\SmartEmailing\Api\Model\General\TransactionalEmail;
+use Spawicki\SmartEmailing\Api\Response\BaseResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
 
 class CustomCampaigns extends AbstractEndpoint
 {

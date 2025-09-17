@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Bag\ContactBag;
-use App\Services\SmartEmailing\Api\src\Model\Import\Import as ImportModel;
-use App\Services\SmartEmailing\Api\src\Response\ImportResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Bag\ContactBag;
+use Spawicki\SmartEmailing\Api\Model\Import\Import as ImportModel;
+use Spawicki\SmartEmailing\Api\Response\ImportResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
 
 class Import extends AbstractEndpoint
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Bag;
+namespace Spawicki\SmartEmailing\Api\Bag;
 
-use App\Services\SmartEmailing\Api\src\Model\General\Recipient;
-use App\Services\SmartEmailing\Api\src\Model\General\Task;
+use Spawicki\SmartEmailing\Api\Model\General\Recipient;
+use Spawicki\SmartEmailing\Api\Model\General\Task;
 
 class TaskBag extends AbstractBag
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\General;
+namespace Spawicki\SmartEmailing\Api\Model\General;
 
-use App\Services\SmartEmailing\Api\Model\General\Pure;
-use App\Services\SmartEmailing\Api\src\Bag\AbstractBag;
-use App\Services\SmartEmailing\Api\src\Bag\AttachmentBag;
-use App\Services\SmartEmailing\Api\src\Bag\ReplaceBag;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\ModelInterface;
+use Spawicki\SmartEmailing\Api\Model\General\Pure;
+use Spawicki\SmartEmailing\Api\Bag\AbstractBag;
+use Spawicki\SmartEmailing\Api\Bag\AttachmentBag;
+use Spawicki\SmartEmailing\Api\Bag\ReplaceBag;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\ModelInterface;
 
 class Task extends AbstractModel implements ModelInterface
 {

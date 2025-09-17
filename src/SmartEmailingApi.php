@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src;
+namespace Spawicki\SmartEmailing\Api;
 
-use App\Services\SmartEmailing\Api\src\Endpoint\Automation;
-use App\Services\SmartEmailing\Api\src\Endpoint\ContactLists;
-use App\Services\SmartEmailing\Api\src\Endpoint\Contacts;
-use App\Services\SmartEmailing\Api\src\Endpoint\CustomCampaigns;
-use App\Services\SmartEmailing\Api\src\Endpoint\CustomFieldOptions;
-use App\Services\SmartEmailing\Api\src\Endpoint\CustomFields;
-use App\Services\SmartEmailing\Api\src\Endpoint\Emails;
-use App\Services\SmartEmailing\Api\src\Endpoint\Eshops;
-use App\Services\SmartEmailing\Api\src\Endpoint\Import;
-use App\Services\SmartEmailing\Api\src\Endpoint\Newsletter;
-use App\Services\SmartEmailing\Api\src\Endpoint\ProcessingPurposes;
-use App\Services\SmartEmailing\Api\src\Endpoint\Scoring;
-use App\Services\SmartEmailing\Api\src\Endpoint\Stats;
-use App\Services\SmartEmailing\Api\src\Endpoint\Tests;
-use App\Services\SmartEmailing\Api\src\Endpoint\TransactionalEmails;
-use App\Services\SmartEmailing\Api\src\Endpoint\WebForms;
-use App\Services\SmartEmailing\Api\src\Endpoint\Webhooks;
+use Spawicki\SmartEmailing\Api\Endpoint\Automation;
+use Spawicki\SmartEmailing\Api\Endpoint\ContactLists;
+use Spawicki\SmartEmailing\Api\Endpoint\Contacts;
+use Spawicki\SmartEmailing\Api\Endpoint\CustomCampaigns;
+use Spawicki\SmartEmailing\Api\Endpoint\CustomFieldOptions;
+use Spawicki\SmartEmailing\Api\Endpoint\CustomFields;
+use Spawicki\SmartEmailing\Api\Endpoint\Emails;
+use Spawicki\SmartEmailing\Api\Endpoint\Eshops;
+use Spawicki\SmartEmailing\Api\Endpoint\Import;
+use Spawicki\SmartEmailing\Api\Endpoint\Newsletter;
+use Spawicki\SmartEmailing\Api\Endpoint\ProcessingPurposes;
+use Spawicki\SmartEmailing\Api\Endpoint\Scoring;
+use Spawicki\SmartEmailing\Api\Endpoint\Stats;
+use Spawicki\SmartEmailing\Api\Endpoint\Tests;
+use Spawicki\SmartEmailing\Api\Endpoint\TransactionalEmails;
+use Spawicki\SmartEmailing\Api\Endpoint\WebForms;
+use Spawicki\SmartEmailing\Api\Endpoint\Webhooks;
 
 class SmartEmailingApi extends AbstractApi
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\General;
+namespace Spawicki\SmartEmailing\Api\Model\General;
 
 class RecipientSms extends Recipient
 {

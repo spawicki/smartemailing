@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\SmartEmailing\Api\src\Enum;
+namespace Spawicki\SmartEmailing\Api\Enum;
 
 enum ResponseStatus: string
 {

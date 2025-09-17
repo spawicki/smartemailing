@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\Contact;
+namespace Spawicki\SmartEmailing\Api\Model\Contact;
 
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\ModelInterface;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\ModelInterface;
 
 class CustomField extends AbstractModel implements ModelInterface
 {

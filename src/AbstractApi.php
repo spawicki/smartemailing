@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src;
+namespace Spawicki\SmartEmailing\Api;
 
-use App\Services\SmartEmailing\Api\src\Enum\HttpMethod;
+use Spawicki\SmartEmailing\Api\Enum\HttpMethod;
 use Exception;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpClient\HttpOptions;

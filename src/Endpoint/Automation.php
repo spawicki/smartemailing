@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Bag\TriggerEventBag;
-use App\Services\SmartEmailing\Api\src\Response\BaseResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Bag\TriggerEventBag;
+use Spawicki\SmartEmailing\Api\Response\BaseResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-Automation

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Search\General;
+namespace Spawicki\SmartEmailing\Api\Search\General;
 
 class SearchEmails extends SearchSingleEmail
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\Contact;
+namespace Spawicki\SmartEmailing\Api\Model\Contact;
 
-use App\Services\SmartEmailing\Api\src\Model\General\SenderCredentials as SenderCredentialsModel;
+use Spawicki\SmartEmailing\Api\Model\General\SenderCredentials as SenderCredentialsModel;
 
 class SenderCredentials extends SenderCredentialsModel
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Response;
+namespace Spawicki\SmartEmailing\Api\Response;
 
 class BaseResponse extends AbstractResponse
 {

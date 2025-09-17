@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Exception\RequiredFieldException;
-use App\Services\SmartEmailing\Api\src\Model\ContactList\ContactList;
-use App\Services\SmartEmailing\Api\src\Model\ContactList\ContactListNew;
-use App\Services\SmartEmailing\Api\src\Response\BaseResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
-use App\Services\SmartEmailing\Api\src\Search\ContactList\SearchContactList;
+use Spawicki\SmartEmailing\Api\Exception\RequiredFieldException;
+use Spawicki\SmartEmailing\Api\Model\ContactList\ContactList;
+use Spawicki\SmartEmailing\Api\Model\ContactList\ContactListNew;
+use Spawicki\SmartEmailing\Api\Response\BaseResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Search\ContactList\SearchContactList;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-Contactlists

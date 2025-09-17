@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Response\BaseResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
-use App\Services\SmartEmailing\Api\src\Search\General\SearchCampaignStats;
-use App\Services\SmartEmailing\Api\src\Search\General\SearchNewsletterStats;
+use Spawicki\SmartEmailing\Api\Response\BaseResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Search\General\SearchCampaignStats;
+use Spawicki\SmartEmailing\Api\Search\General\SearchNewsletterStats;
 
 class Stats extends AbstractEndpoint
 {

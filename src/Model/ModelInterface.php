@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\SmartEmailing\Api\src\Model;
+namespace Spawicki\SmartEmailing\Api\Model;
 
 interface ModelInterface
 {

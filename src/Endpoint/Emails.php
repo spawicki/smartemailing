@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Model\General\Email;
-use App\Services\SmartEmailing\Api\src\Model\General\EmailTemplate;
-use App\Services\SmartEmailing\Api\src\Response\BaseResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
-use App\Services\SmartEmailing\Api\src\Search\General\SearchEmails;
-use App\Services\SmartEmailing\Api\src\Search\General\SearchSingleEmail;
+use Spawicki\SmartEmailing\Api\Model\General\Email;
+use Spawicki\SmartEmailing\Api\Model\General\EmailTemplate;
+use Spawicki\SmartEmailing\Api\Response\BaseResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Search\General\SearchEmails;
+use Spawicki\SmartEmailing\Api\Search\General\SearchSingleEmail;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-Emails

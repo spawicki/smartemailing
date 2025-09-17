@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Bag;
+namespace Spawicki\SmartEmailing\Api\Bag;
 
-use App\Services\SmartEmailing\Api\src\Model\ModelInterface;
+use Spawicki\SmartEmailing\Api\Model\ModelInterface;
 use JsonSerializable;
 use Stringable;
 

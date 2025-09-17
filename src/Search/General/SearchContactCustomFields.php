@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Search\General;
+namespace Spawicki\SmartEmailing\Api\Search\General;
 
-use App\Services\SmartEmailing\Api\src\Search\AbstractSearch;
+use Spawicki\SmartEmailing\Api\Search\AbstractSearch;
 
 class SearchContactCustomFields extends AbstractSearch
 {

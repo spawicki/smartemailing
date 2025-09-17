@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Endpoint;
+namespace Spawicki\SmartEmailing\Api\Endpoint;
 
-use App\Services\SmartEmailing\Api\src\Bag\OrderBag;
-use App\Services\SmartEmailing\Api\src\Model\General\Order;
-use App\Services\SmartEmailing\Api\src\Response\ImportResponse;
-use App\Services\SmartEmailing\Api\src\Response\SmartEmailingResponseInterface;
+use Spawicki\SmartEmailing\Api\Bag\OrderBag;
+use Spawicki\SmartEmailing\Api\Model\General\Order;
+use Spawicki\SmartEmailing\Api\Response\ImportResponse;
+use Spawicki\SmartEmailing\Api\Response\SmartEmailingResponseInterface;
 
 /**
  * @see https://app.smartemailing.cz/docs/api/v3/index.html#api-E_shops

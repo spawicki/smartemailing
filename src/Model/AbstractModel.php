@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model;
+namespace Spawicki\SmartEmailing\Api\Model;
 
 use JsonSerializable;
 use Symfony\Component\PropertyAccess\PropertyAccess;

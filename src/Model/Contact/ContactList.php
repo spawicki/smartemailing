@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\Contact;
+namespace Spawicki\SmartEmailing\Api\Model\Contact;
 
-use App\Services\SmartEmailing\Api\src\Exception\AllowedTypeException;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\ModelInterface;
+use Spawicki\SmartEmailing\Api\Exception\AllowedTypeException;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\ModelInterface;
 use function intval;
 
 class ContactList extends AbstractModel implements ModelInterface

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Services\SmartEmailing\Api\src\Model\Import;
+namespace Spawicki\SmartEmailing\Api\Model\Import;
 
-use App\Services\SmartEmailing\Api\src\Bag\ContactBag;
-use App\Services\SmartEmailing\Api\src\Model\AbstractModel;
-use App\Services\SmartEmailing\Api\src\Model\Contact\Settings\Settings;
+use Spawicki\SmartEmailing\Api\Bag\ContactBag;
+use Spawicki\SmartEmailing\Api\Model\AbstractModel;
+use Spawicki\SmartEmailing\Api\Model\Contact\Settings\Settings;
 
 class Import extends AbstractModel
 {
