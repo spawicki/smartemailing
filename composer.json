@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Spawicki/SmartEmailing\\": "src/"
+      "Spawicki\\SmartEmailing\\": "src/"
     }
   }
 }
