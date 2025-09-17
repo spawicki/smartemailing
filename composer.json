@@ -1,0 +1,21 @@
+{
+  "name": "spawicki/smartemailing",
+  "description": "SmartEmailing PHP API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Slawomir Pawicki",
+      "email": "spawicki@x-one.com.pl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmartEmailing\\": "src/"
+    }
+  }
+}
